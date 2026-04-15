@@ -1,0 +1,80 @@
+"Segundo a norma ABNT NBR ISO IEC 27001:2013, o que define uma 'ameaça'?",Causa potencial de um incidente indesejado que pode resultar em danos a um sistema ou organização.
+Como a norma ISO 27001 define o termo 'ataque'?,"Tudo aquilo que tenta destruir, expor, alterar, desativar, roubar ou obter acesso não autorizado a um ativo."
+"No contexto de segurança da informação, o que é um 'ativo'?","Qualquer coisa que tenha valor para uma pessoa ou organização, incluindo dados, equipamentos e colaboradores."
+Qual propriedade da segurança garante que a informação não esteja disponível para pessoas ou entidades não autorizadas?,Confidencialidade.
+"A propriedade que protege a exatidão e a completeza de ativos, garantindo que o dado não foi adulterado, é a _____.",Integridade
+O que caracteriza a propriedade da 'disponibilidade' em redes de computadores?,Tornar o dado acessível e utilizável sob demanda por fontes autorizadas.
+Qual propriedade assegura a veracidade da identidade do emissor e do receptor das informações?,Autenticidade.
+O que é a propriedade do 'não repúdio' (ou irretratabilidade)?,Garantia de que o autor de uma informação não pode negar falsamente a autoria de uma ação praticada.
+Quais duas outras propriedades devem ser garantidas para que o 'não repúdio' seja alcançado?,Integridade e autenticidade.
+A propriedade que garante que um sistema se comportará exatamente segundo o esperado e projetado é a _____.,Confiabilidade
+O que afere a propriedade da 'legalidade' na segurança da informação?,"Se as ações tomadas têm o suporte de alguma legislação ou norma, como a LGPD no Brasil."
+Qual é a principal diferença entre ataques ativos e ataques passivos?,"Ataques ativos tentam alterar recursos ou afetar a operação, enquanto passivos apenas tentam descobrir informações."
+Em qual categoria se enquadra um ataque de interceptação que busca apenas obter informações confidenciais?,Ataque passivo.
+"Ataques de interrupção, modificação e fabricação são classificados como ataques _____.",Ativos
+O que caracteriza um ataque interno ('inside attack')?,Ataque realizado por alguém que está dentro da mesma rede (doméstica ou corporativa) que a vítima.
+Qual é a distinção entre um ataque direto e um ataque indireto quanto ao método de entrega?,No direto o atacante age sozinho contra a vítima; no indireto o atacante emprega terceiros para realizar a ação.
+Qual é o objetivo principal de um ataque de interrupção?,Indisponibilizar serviços de rede sobrecarregando sistemas ou desligando equipamentos.
+O que ocorre em um 'ataque de repetição'?,Uma entidade maliciosa intercepta e repete uma transmissão de dados válida para produzir um efeito não autorizado.
+"Na cadeia de ataque, o que é a etapa de 'reconhecimento'?",Fase preparatória de coleta de informações sobre o alvo por meio de fontes públicas ou dispositivos de rede.
+O que define a etapa de 'armamento' (weaponization) em um ataque cibernético?,Seleção ou desenvolvimento de uma arma (exploit) para explorar vulnerabilidades específicas do sistema alvo.
+O que caracteriza um 'zero-day attack'?,Ataque que utiliza armas ou explora vulnerabilidades que ainda não são publicamente conhecidas ou corrigidas.
+"Na etapa de 'entrega' (delivery), qual é o objetivo do atacante ao usar técnicas como o phishing?",Fazer com que a arma pareça inocente para ludibriar o usuário e permitir que ela chegue à máquina alvo.
+O que acontece especificamente na etapa de 'exploração' de um ataque?,O atacante aciona a arma entregue para infectar a máquina e buscar outros alvos dentro da rede de destino.
+Qual é a função de um 'Remote Access Trojan' (RAT) ou backdoor instalado na etapa de 'instalação'?,Permitir que o atacante mantenha o controle e o acesso remoto ao sistema infectado de forma persistente.
+O que é o canal de 'comando e controle' em um ataque cibernético?,Um canal de comunicação que possibilita ao atacante enviar comandos para o sistema infectado realizar novas atividades.
+Qual é a responsabilidade fundamental da camada de rede no Modelo OSI?,Determinar o caminho (roteamento) entre a máquina de origem e a de destino em âmbito global.
+Como se denomina a unidade de dados trocada especificamente entre entidades da camada de rede?,Pacote.
+Qual é a diferença de escopo entre a camada de enlace e a camada de rede?,"A camada de enlace garante a comunicação entre vizinhos diretos, enquanto a de rede promove a comunicação fim a fim global."
+O que é o mecanismo de comutação de pacotes 'store and forward'?,Técnica onde o roteador deve receber e armazenar o pacote totalmente antes de conferi-lo e encaminhá-lo ao próximo salto.
+"No contexto de roteadores, o que define a ação de 'repasse' (forwarding)?",Trabalho local de escolher por qual interface de saída um pacote deve seguir ao chegar no roteador.
+Como se define o 'roteamento' em contraste com o repasse?,Trabalho global de todos os roteadores para escolher os melhores caminhos através da rede para que o repasse ocorra.
+O que é uma 'tabela de repasse' em um roteador?,"Tabela indexada por endereços de destino que indica a interface de saída para cada pacote, montada pelo algoritmo de roteamento."
+Um serviço de camada de rede orientado à conexão é comumente chamado de _____.,Circuito virtual
+"Um serviço de camada de rede que realiza a entrega de pacotes independentes, sem conexão, é chamado de _____.",Serviço de datagramas
+Quais são as três fases identificáveis em um circuito virtual?,"Estabelecimento do CV, transferência de dados e encerramento do CV."
+Por que pacotes em redes de datagramas podem chegar ao destino fora de ordem?,"Porque as tabelas de repasse podem mudar durante a transmissão, fazendo com que pacotes sigam caminhos diferentes."
+"O endereçamento onde o endereço é formado por códigos de país, rede e hospedeiro (como na telefonia) é o _____.",Endereçamento hierárquico
+O que caracteriza o 'endereçamento horizontal'?,"Os endereços não têm relação com a localização física, como o endereço MAC gravado na fabricação de placas Ethernet."
+Qual é a principal tarefa do protocolo IP na Internet?,"Fornecer a melhor forma de transportar datagramas da origem para o destino, unindo diversas sub-redes."
+Qual é o tamanho total de um endereço IPv4 em bits?,32 bits (ou 4 bytes).
+Quantos endereços IPv4 únicos são possíveis teoricamente?,Aproximadamente 4 bilhões ($2^{32}$).
+O que significa a notação 'CIDR' no endereçamento IP?,Roteamento Interdomínio sem Classes (Classless Inter-domain Routing).
+"Na representação CIDR A.B.C.D/X, o que o valor 'X' indica?",O número de bits que constituem a parcela da rede (o prefixo de rede).
+Quais são os dois endereços de uma sub-rede IP que não podem ser atribuídos a hospedeiros?,O endereço de rede (primeiro da faixa) e o endereço de difusão/broadcast (último da faixa).
+Qual é a função do endereço IP '255.255.255.255'?,Endereço especial de difusão para entregar mensagens a todos os hospedeiros na mesma sub-rede do emissor.
+"No endereçamento de classes, qual é a faixa de endereços da Classe C?",192.0.0.0 a 223.255.255.255.
+O que é a 'máscara de rede'?,"Mecanismo de 32 bits que permite dividir uma rede em sub-redes, especificando quais bits identificam a rede e quais o hospedeiro."
+Qual é a máscara de rede padrão para endereços de Classe B em notação decimal e CIDR?,255.255.0.0 ou /16.
+Para que serve a técnica de NAT (Network Address Translation)?,Para permitir que uma organização use endereços privados internamente e os traduza para endereços públicos válidos ao acessar a Internet.
+Qual é a faixa de endereços privados reservada para a Classe A usada no NAT?,10.0.0.0 a 10.255.255.255.
+Qual é a finalidade do protocolo ARP (Address Resolution Protocol)?,Mapear endereços de rede (IP) em endereços físicos de enlace (MAC).
+Para qual endereço de enlace a requisição ARP é enviada inicialmente?,Endereço de difusão ff-ff-ff-ff-ff-ff.
+O que é o protocolo DHCP (Dynamic Host Configuration Protocol)?,Protocolo que automatiza a distribuição de endereços IP e outros parâmetros de configuração para hospedeiros em uma rede.
+Quais são os quatro parâmetros mínimos que o DHCP geralmente configura em um hospedeiro?,"Endereço IP, máscara de sub-rede, endereço do gateway e endereço do servidor DNS."
+"No funcionamento do DHCP, o que é a mensagem 'DHCPDISCOVER'?",Mensagem difundida pelo cliente para localizar servidores DHCP disponíveis na rede local.
+Qual porta UDP é utilizada pelos servidores DHCP para receber requisições?,Porta 67.
+O que acontece no estado 'RENOVA' do cliente DHCP?,O cliente tenta prolongar a alocação do endereço IP enviando uma requisição ao servidor que o concedeu originalmente.
+Qual é a função do protocolo ICMP (Internet Control Message Protocol)?,Permitir que hospedeiros e roteadores enviem mensagens de controle e sinalização de erros sobre o tráfego IP.
+Qual comando de rede utiliza as mensagens 'Echo Request' e 'Echo Reply' do ICMP?,Ping.
+A mensagem ICMP 'Destination Unreachable' é enviada em qual situação?,Quando um datagrama não pode ser entregue porque o roteador não localiza o destino ou há restrições no caminho.
+O que indica a mensagem ICMP 'Time Exceeded'?,"Que o campo 'Tempo de Vida' (TTL) do pacote chegou a zero e o pacote foi descartado, sugerindo loops ou congestionamento."
+O princípio de Bellman (1957) afirma que o conjunto de rotas ótimas para um destino forma uma estrutura chamada _____.,Árvore de escoamento (sink tree)
+Como funcionam os algoritmos de roteamento 'não adaptativos' ou estáticos?,Eles não baseiam suas decisões no tráfego atual; as rotas são calculadas previamente e carregadas na inicialização.
+O que caracteriza um algoritmo de roteamento 'adaptativo' ou dinâmico?,Ele muda decisões de roteamento para refletir mudanças em tempo real na topologia e no tráfego da rede.
+Qual é a diferença entre um algoritmo global e um descentralizado?,O global exige conhecimento completo da rede por cada roteador; o descentralizado calcula rotas via troca de informações com vizinhos.
+Qual algoritmo de roteamento clássico é utilizado para calcular o 'caminho mais curto' em um grafo de rede?,Algoritmo de Dijkstra.
+Como o 'Roteamento de Vetor de Distâncias' atualiza suas tabelas?,Cada roteador mantém uma tabela com a melhor distância conhecida até cada destino e a compartilha periodicamente com seus vizinhos.
+Qual protocolo da Internet implementa o algoritmo de Vetor de Distâncias?,RIP (Routing Information Protocol).
+Qual é o custo do caminho de um roteador 'x' até 'y' passando pelo vizinho 'v' no algoritmo de vetor de distâncias?,"$c(x, v) + d_{v}(y)$."
+"No 'Roteamento de Estado de Enlace', como o roteador distribui as informações aprendidas para o resto da rede?",Por meio de um processo chamado inundação de pacotes.
+Qual protocolo oficial de roteamento interno da Internet utiliza o estado de enlace?,OSPF (Open Shortest Path First).
+Qual é a principal vantagem do 'Roteamento Hierárquico' em redes muito grandes?,Reduzir drasticamente o tamanho das tabelas de roteamento ao dividir os roteadores em regiões ou clusters.
+Qual protocolo de roteamento da Internet implementa o conceito hierárquico entre sistemas autônomos?,BGP (Border Gateway Protocol).
+"No roteamento de estado de enlace, qual mecanismo evita que pacotes de informação vivam indefinidamente na rede?",Inclusão de um campo de 'idade' que é decrementado periodicamente até chegar a zero.
+O que acontece quando o roteador recebe um pacote de estado de enlace com número de sequência inferior ao já conhecido?,O pacote é rejeitado/descartado.
+Qual campo do cabeçalho IPv4 evita que pacotes fiquem circulando em loop infinitamente?,Tempo de Vida (TTL - Time to Live).
+O que determina a necessidade de 'fragmentação' de um datagrama IP?,O limite de MTU (Maximum Transmission Unit) da interface de hardware da rede física por onde o pacote deve passar.
+Qual campo do cabeçalho IP identifica o protocolo de transporte (como TCP ou UDP) ao qual os dados pertencem?,Protocolo.
+"No NAT, por que o roteador precisa manter uma 'tabela de mapeamento'?",Para saber qual máquina interna fez a requisição original e encaminhar a resposta externa corretamente de volta a ela.
+Como um roteador no estado de enlace 'aprende' quem são seus vizinhos imediatos?,Enviando um pacote especial 'HELLO' em cada linha e recebendo a identificação do roteador na outra extremidade.

@@ -1,0 +1,80 @@
+Quem é creditado pela criação das primeiras linhas de código da internet nos laboratórios do CERN?,Tim Berners-Lee.
+"No contexto da Segurança da Informação, o que define uma ""vulnerabilidade""?",Uma fraqueza de um ativo ou grupo de ativos que pode ser explorada por uma ou mais ameaças.
+"O que constitui uma ""ameaça"" para a informação?",Qualquer evento ou ação com potencial de causar danos a um ativo através da exploração de uma vulnerabilidade.
+Qual a diferença fundamental entre ativos tangíveis e intangíveis?,"Ativos tangíveis possuem valor mensurável, enquanto o valor de ativos intangíveis é de difícil ou impossível medição."
+Quais são as três classificações dos ativos tangíveis?,"Lógicos, físicos e humanos."
+Dê um exemplo de um ativo tangível lógico citado no material.,"Algoritmos de busca, fórmulas químicas digitais ou bases de dados."
+Por que colaboradores e prestadores de serviço são considerados ativos tangíveis?,"Devido ao custo mensurável de sua contratação, treinamento e valor de mercado no setor."
+Dê um exemplo de ativo intangível de uma organização.,"A imagem da organização, sua marca ou a percepção da qualidade do produto."
+"O que são os ""controles"" de Segurança da Informação?","Ferramentas, equipamentos, metodologias e processos usados para proteger um ativo contra ameaças."
+Qual a regra básica para decidir a implementação de um controle em relação ao valor do ativo?,O custo de implementar o controle não deve ser superior ao valor do ativo protegido.
+O que significa a sigla TIC?,Tecnologia da Informação e Comunicação.
+Quais são os três pilares fundamentais da Segurança da Informação (Tríade CID)?,"Confidencialidade, Integridade e Disponibilidade."
+"Qual o objetivo do pilar da ""Confidencialidade""?","Garantir que a informação seja acessada apenas por pessoas, sistemas ou processos autorizados."
+O pilar que garante que a informação não foi alterada de forma indevida chama-se _____.,Integridade
+"Qual o objetivo do pilar da ""Disponibilidade""?",Assegurar que os recursos e informações estejam acessíveis sempre que requisitados por usuários legítimos.
+Ameaças que afetam equipamentos e infraestrutura física de um data center são classificadas como ameaças _____.,Físicas
+"Ameaças relacionadas a problemas de software, algoritmos e códigos maliciosos são classificadas como ameaças _____.",Lógicas
+Dê um exemplo de ameaça humana provocada por falta de conhecimento.,Um colaborador mal treinado que executa uma ação que gera incidentes ou prejuízos.
+Qual a diferença entre ameaças de desastres naturais e de infraestrutura nas classificações não humanas?,"Desastres naturais derivam de causas da natureza (enchentes), enquanto infraestrutura deriva de falhas técnicas (sobrecarga elétrica)."
+Qual o principal objetivo de um ataque de Negação de Serviço (DoS)?,Indisponibilizar um sistema ou equipamento para seus usuários legítimos.
+"O que caracteriza a técnica de ""Engenharia Social""?",O uso de manipulação psicológica para explorar fraquezas humanas e obter informações confidenciais.
+Como é chamado o ataque que altera a aparência de um site (pichação) para demonstrar superioridade técnica?,Defacement.
+O termo para fraudes eletrônicas que usam e-mails ou sites falsos para roubar senhas e dados bancários é _____.,Phishing
+Qual o número mínimo de caracteres recomendado para uma senha segura?,Pelo menos oito caracteres.
+Quais elementos devem ser combinados para criar uma senha forte?,"Letras maiúsculas, minúsculas, números e caracteres especiais (não alfanuméricos)."
+Por que não se deve utilizar nomes de usuários ou da própria empresa na criação de senhas?,Porque são informações fáceis de serem exploradas por atacantes que conhecem a vítima ou a instituição.
+Qual a finalidade da norma ISO/IEC 27002?,Padronizar diretrizes e procedimentos para auxiliar na gestão e melhoria contínua da segurança da informação.
+Por que o treinamento de segurança da informação deve ser frequente em vez de uma única sessão anual?,Porque os cibercriminosos desenvolvem novas estratégias constantemente e os funcionários tendem a esquecer orientações pontuais.
+Qual a importância do envolvimento da diretoria na política de segurança cibernética?,Facilitar a criação de uma cultura de segurança e garantir o fornecimento de recursos estratégicos.
+Qual técnica é usada para medir a eficácia de um programa de treinamento de conscientização?,"Exercícios de simulação de ataques, como o envio de e-mails de phishing controlados."
+"Princípio de projeto: ""Economia de mecanismo"".",Manter o projeto do sistema o mais simples e pequeno possível para facilitar testes e análises.
+O princípio que dita que o padrão do sistema deve ser a falta de acesso é chamado de _____.,Padrões à prova de falhas
+"O que afirma o princípio da ""Mediação Completa""?","Todos os acessos a recursos devem ser verificados pelos mecanismos de segurança, sem exceções."
+"Por que o ""Projeto Aberto"" é recomendado em mecanismos de segurança?","Para que especialistas possam revisar o sistema e garantir que a segurança dependa apenas de chaves/senhas, não do segredo do código."
+"Dê um exemplo prático do princípio de ""Separação de Privilégios"".",Sistemas que exigem duas chaves diferentes operadas por pessoas distintas para liberar um cofre ou comando crítico.
+"Qual a definição do princípio do ""Privilégio Mínimo""?",Todos os usuários e programas devem operar usando apenas o menor conjunto de permissões necessário para concluir sua tarefa.
+"O que sugere o princípio da ""Aceitação Psicológica""?",A interface de segurança deve ser fácil de usar para evitar que usuários cometam erros ou tentem burlar os mecanismos.
+Como funciona o Controle de Acesso Discricionário (DAC)?,O proprietário de um recurso (arquivo/dado) define quem tem permissão para acessá-lo e o nível de privilégio concedido.
+"No Controle de Acesso Obrigatório (MAC), como o acesso é decidido?",Através de regras impostas pelo sistema operacional que examinam atributos de segurança (rótulos) do sujeito e do objeto.
+Qual o critério de acesso no modelo RBAC (Role-Based Access Control)?,"O acesso é concedido com base na função de negócio definida (ex: cargo), e não na identidade individual do usuário."
+Qual o risco de um atacante ter acesso aos arquivos de log do sistema?,"Ele pode apagar os rastros de suas ações, impedindo que a invasão seja detectada e auditada."
+"O que define a ""Identificação"" em um processo de logon?",A entrada de um ID ou login que informa ao sistema quem o usuário alega ser.
+"O que define a ""Autenticação"" em um processo de logon?",O processo de verificação (geralmente por senha) de que o usuário é realmente quem ele diz ser.
+Por que o sistema não deve indicar qual parte do dado (ID ou senha) está incorreta em um erro de logon?,Para evitar fornecer informações que ajudem um invasor a descobrir IDs válidos.
+Qual o procedimento de segurança recomendado após três tentativas de logon sem sucesso?,Bloquear o acesso temporariamente ou forçar um tempo de espera antes de novas tentativas.
+Defina o que é um vírus de computador.,"Um programa malicioso que faz cópias de si mesmo, infecta arquivos e executa ações sem o conhecimento do proprietário."
+"Qual o alvo de infecção de um ""Vírus de Boot""?","O setor de inicialização do sistema, sendo executado antes do carregamento do sistema operacional."
+O tipo de malware que se disfarça como um programa legítimo e inofensivo é o _____.,Cavalo de Troia (Trojan)
+"Qual a característica do ""Vírus Stealth""?","Ele altera o código usado para detectá-lo, interceptando leituras do sistema para mostrar o arquivo original em vez do infectado."
+"O que torna o ""Vírus Polimórfico"" difícil de detectar por antivírus?",Ele muda sua estrutura interna ou técnicas de codificação a cada nova infecção ou execução.
+"Como o ""Vírus Blindado"" tenta dificultar sua análise?",Usando técnicas para enganar o antivírus sobre sua real localização ou compactação complexa de código.
+O que é o Backup Completo?,"A cópia integral de todos os dados selecionados para outra mídia, independente de alterações recentes."
+Como opera o Backup Incremental?,Copiando apenas os arquivos que foram modificados desde o último backup realizado (de qualquer tipo).
+Como opera o Backup Diferencial?,Copiando todos os dados criados ou modificados desde o último backup completo.
+Qual o principal benefício de realizar testes periódicos de restauração de backups?,Garantir que os dados salvos são íntegros e que o processo de recuperação funcionará em caso de falha real.
+O que caracteriza a criptografia de chave simétrica?,O uso de uma única chave secreta tanto para criptografar quanto para descriptografar a informação.
+O que caracteriza a criptografia de chave assimétrica?,O uso de um par de chaves relacionadas: uma pública para criptografar e uma privada para descriptografar.
+"Qual a aplicação principal da ""Função Hash""?","Garantir a integridade dos dados, verificando se o conteúdo de uma mensagem foi alterado durante a transmissão."
+Dê um exemplo de algoritmo de criptografia simétrica e um de assimétrica.,AES (Simétrica) e RSA (Assimétrica).
+Dê um exemplo de algoritmo de função Hash.,SHA (Secure Hash Algorithm) ou MD5.
+Por que a criptografia simétrica é geralmente preferida para mensagens longas em comparação à assimétrica?,Porque algoritmos simétricos são significativamente mais rápidos para processar grandes volumes de dados.
+O que é um Certificado Digital?,Um documento eletrônico emitido por uma Autoridade Certificadora que prova a identidade de uma pessoa ou instituição.
+Quais são as três garantias fundamentais oferecidas pelo certificado digital?,"Autenticidade, Integridade e Não Repúdio."
+Quais itens devem constar em um certificado digital criptografado?,"Nome do sujeito, chave pública, número de série, data de validade e assinatura da autoridade emissora."
+O que é a CRL (Certificate Revocation List)?,Uma lista mantida pela AC contendo os certificados que foram cancelados ou revogados antes da data de expiração.
+O que é a ICP-Brasil?,Uma cadeia hierárquica de confiança que regula e viabiliza a emissão de certificados digitais para identificação virtual no Brasil.
+Cite uma aplicação comum do certificado digital no cotidiano brasileiro.,Assinatura de notas fiscais eletrônicas ou acesso ao Poder Judiciário informatizado.
+Por que os certificados digitais possuem data de validade?,Para forçar a atualização periódica dos pares de chaves e garantir que técnicas de segurança obsoletas não sejam usadas.
+Qual o procedimento de segurança em relação a fontes externas de software?,Baixar programas apenas de fornecedores oficiais e verificar todos os arquivos com antivírus antes da execução.
+Qual pilar CID é afetado pelo sequestro de dados (ransomware)?,Principalmente a Disponibilidade (devido ao travamento dos dados) e a Confidencialidade.
+"Em termos de risco geográfico, que tipo de controle é inútil contra enchentes, mas vital contra incêndios?",Sistemas de sprinklers e detectores de fumaça.
+Como o treinamento pode mitigar o elo mais fraco da segurança da informação?,Capacitando o fator humano a identificar armadilhas como engenharia social e links maliciosos.
+A técnica de interceptar tráfego de rede para ouvir comunicações fere qual aspecto da segurança?,Confidencialidade.
+"Qual o benefício do princípio do ""Compartilhamento Mínimo""?",Evitar que a corrupção de um recurso compartilhado afete múltiplos programas ou processos que dependem dele.
+"No contexto de backups, o que significa ""Disaster Recovery""?",Uma infraestrutura tecnológica que permite a continuidade da operação após falhas graves ou desastres.
+Qual tipo de ameaça descreve a queda de um poste que interrompe a rede de um data center?,Ameaça não humana de infraestrutura.
+O uso de criptografia em fitas de backup durante o transporte visa proteger qual aspecto?,Confidencialidade.
+Qual norma da ABNT padroniza diretrizes para a classificação e tratamento da informação?,NBR 16167.
+"No caso da Apple (1997-2011), Steve Jobs foi citado como exemplo de qual tipo de ativo?",Ativo humano tangível (cujo valor pôde ser medido pela variação das ações da empresa).
+"O que caracteriza um ""Vírus de Arquivo""?",Ele se anexa ao final de um arquivo legítimo e altera o início do código para ser executado primeiro.

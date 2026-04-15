@@ -1,0 +1,74 @@
+Quem desenvolveu a linguagem C originalmente na década de 1970?,"Dennis Ritchie, nos laboratórios Bell Labs."
+Por que a linguagem C é considerada de 'médio nível'?,Porque equilibra a facilidade de uso com um controle próximo ao hardware.
+"Qual biblioteca padrão em C fornece funções para entrada e saída de dados, como o 'printf'?",A biblioteca `stdio.h`.
+Termo: Compilador,Definição: Software que converte o código-fonte escrito em C para código de máquina executável.
+"No comando de compilação 'gcc programa.c -o programa', qual a função da flag '-o'?",Definir o nome do arquivo executável gerado.
+O tipo de dado _____ é utilizado para armazenar números de ponto flutuante com precisão dupla.,double
+Qual é a representação numérica do valor 'falso' na linguagem C?,O número 0.
+Como se declara uma variável booleana utilizando o padrão da linguagem C mencionado no material?,Utilizando o tipo `_Bool`.
+Qual operador aritmético é utilizado para obter o resto de uma divisão inteira?,O operador de módulo `%`.
+Diferencie o operador '=' do operador '=='.,"O operador `=` realiza atribuição, enquanto `==` realiza comparação de igualdade."
+O operador lógico _____ retorna verdadeiro apenas se ambas as expressões conectadas forem verdadeiras.,&& (E lógico)
+Qual é a função do operador lógico '||' em uma estrutura de decisão?,Retornar verdadeiro se pelo menos uma das condições for verdadeira.
+O operador lógico '!' possui a função de _____ o valor lógico de uma expressão.,inverter
+Qual estrutura de controle executa um bloco de código apenas se uma condição for verdadeira e outro bloco se for falsa?,A estrutura `if-else`.
+Sintaxe: Operador Ternário,Formato: `condicao ? valor_se_verdadeiro : valor_se_falso;`.
+Qual a principal utilidade da estrutura 'switch-case'?,Simplificar a seleção entre múltiplas opções baseadas no valor de uma única variável.
+O que acontece em um 'switch-case' se o comando 'break' for omitido em um 'case'?,O programa continuará executando os blocos dos casos subsequentes até encontrar um break ou o fim do switch.
+Qual a função do comando 'default' dentro de uma estrutura 'switch'?,Executar um bloco de código caso nenhum dos valores dos 'cases' corresponda à variável de controle.
+Qual a diferença fundamental entre os loops 'while' e 'do-while'?,"O 'while' testa a condição antes da execução, enquanto o 'do-while' garante que o bloco seja executado ao menos uma vez."
+Quais são as três partes essenciais definidas na linha inicial de um loop 'for'?,"Inicialização, condição e incremento/atualização."
+Termo: Loop Infinito,Definição: Um ciclo de repetição em que a condição de parada nunca se torna falsa.
+O comando _____ faz com que o loop pule a iteração atual e prossiga para a próxima verificação da condição.,continue
+Em que contexto se utiliza um 'loop aninhado'?,"Quando é necessário realizar iterações múltiplas e hierárquicas, como em matrizes ou tabelas."
+Qual é a complexidade de tempo típica de um loop aninhado duplo que percorre $n$ elementos?,A complexidade é $O(n^2)$.
+O que define uma função recursiva?,É uma função que chama a si mesma para resolver subproblemas menores.
+Qual é o componente essencial de uma recursão para evitar um estouro de pilha (stack overflow)?,"O caso-base, que interrompe as chamadas recursivas."
+Como se define um 'procedimento' em C?,"É uma função que realiza uma tarefa mas não retorna valor, sendo declarada com o tipo `void`."
+Qual operador é utilizado para declarar um ponteiro em C?,O operador asterisco `*`.
+O operador '&' (e comercial) é utilizado para obter o _____ de uma variável.,endereço de memória
+O que ocorre na 'aritmética de ponteiros' ao somar 1 a um ponteiro de inteiro?,O ponteiro avança para o próximo endereço de memória baseado no tamanho (bytes) de um `int`.
+Como se acessam os elementos de um array em C?,"Através de índices, que iniciam em 0 e vão até o tamanho do array menos 1."
+O que é uma 'matriz' no contexto de programação em C?,"É um array multidimensional, ou seja, um array que contém outros arrays como elementos."
+Qual caractere especial indica o fim de uma string em C?,O caractere nulo `\0`.
+Qual função da biblioteca `string.h` é utilizada para comparar duas cadeias de caracteres?,A função `strcmp()`.
+A função `strlen()` retorna o _____ de uma string.,comprimento (número de caracteres)
+Qual a diferença entre uma 'struct' e uma 'union' quanto ao uso de memória?,"Na 'struct' cada membro tem seu espaço, enquanto na 'union' todos os membros compartilham o mesmo espaço de memória."
+Para que servem as 'enumerações' (enums) em C?,"Para criar tipos de dados com um conjunto predefinido de constantes nomeadas, melhorando a legibilidade."
+Qual função é utilizada para alocar dinamicamente um bloco de memória e inicializar todos os bytes com zero?,A função `calloc()`.
+Por que é fundamental utilizar a função 'free()' após o uso de memória alocada dinamicamente?,Para liberar o espaço na memória e evitar vazamentos de memória (memory leaks).
+Qual função permite redimensionar um bloco de memória previamente alocado?,A função `realloc()`.
+"No jogo Super Trunfo, qual a regra de vitória para o atributo 'Densidade Demográfica'?",Vence a carta que possuir o menor valor nesse atributo.
+Como se calcula a 'Densidade Populacional' no desafio do Super Trunfo?,Dividindo a população pela área ($	ext{População} / 	ext{Área}$).
+Qual a fórmula para o cálculo do 'PIB per capita'?,Dividindo o PIB total pela população ($	ext{PIB} / 	ext{População}$).
+"No xadrez, qual o padrão de movimento da peça 'Bispo'?",Movimenta-se apenas nas diagonais.
+Qual peça de xadrez se move em formato de 'L' (duas casas em uma direção e uma perpendicular)?,O Cavalo.
+"Como se chama a técnica de inicializar, testar e atualizar várias variáveis simultaneamente em um único loop?",Loops com múltiplas variáveis.
+O que caracteriza uma 'estrutura de decisão aninhada'?,A presença de uma instrução `if` dentro de outra instrução `if`.
+Qual a diferença entre estruturas de decisão 'aninhadas' e 'encadeadas'?,"Aninhadas seguem uma hierarquia interna, enquanto encadeadas usam `else if` para verificar condições sequencialmente."
+"O comando `scanf(""%s"", nome)` é utilizado para ler uma _____ fornecida pelo usuário.",string (cadeia de caracteres)
+"Em C, o que acontece se você tentar acessar o índice 5 de um array declarado como `int arr[5]`?","Ocorre um erro de acesso ou comportamento indefinido, pois os índices válidos são de 0 a 4."
+Qual é a função do operador `!=`?,Verificar se dois valores são diferentes entre si.
+Como se acessa um membro de uma estrutura (`struct`) através de uma variável dessa estrutura?,Utilizando o operador ponto `.`.
+Qual é o valor inicial padrão da primeira constante em uma 'enum' se nenhum valor for atribuído?,O valor 0.
+A função `malloc()` retorna um ponteiro do tipo `void *`. O que isso representa?,Representa um ponteiro genérico que pode ser convertido para qualquer tipo de dado.
+Qual a utilidade da função `srand(time(0))` em programas que geram números aleatórios?,Inicializar a semente do gerador com base no tempo atual para garantir sequências diferentes a cada execução.
+O que o especificador `%d` representa na função `printf`?,Formatação para a exibição de números inteiros decimais.
+"Na hierarquia de precedência de operadores em C, quais operadores são avaliados antes: aritméticos ou relacionais?",Os operadores aritméticos são avaliados antes dos relacionais.
+Qual é a finalidade do arquivo de cabeçalho `stdlib.h`?,"Fornecer funções para alocação de memória, controle de processos e conversões."
+"No movimento do Bispo em xadrez, para mover-se na diagonal superior direita, quais direções devem ser impressas?",As direções 'Cima' e 'Direita'.
+O que define a técnica de 'Programação Modular'?,A organização do código em múltiplos arquivos fonte e a criação de bibliotecas reutilizáveis.
+Como se comenta uma única linha de código em C?,Utilizando duas barras inclinadas `//`.
+Qual é a saída da expressão `10 % 3`?,A saída é 1.
+"Em um loop `for (int i = 0; i < 10; i += 2)`, quantas vezes o bloco de código será executado?",Será executado 5 vezes.
+O que significa o termo 'Portabilidade' na linguagem C?,A capacidade de executar programas em diferentes plataformas com poucas ou nenhuma modificação.
+"A função `strcat(destino, origem)` realiza a _____ de duas strings.",concatenação (junção)
+O que é um 'ponteiro para função'?,É um ponteiro que armazena o endereço de início do código de uma função na memória.
+Qual a função do operador `>=`?,Verificar se o valor da esquerda é maior ou igual ao valor da direita.
+Como se representa o caractere 'A' em C?,Utilizando aspas simples: `'A'`.
+Qual a vantagem de usar o operador ternário em vez de um `if-else` simples?,Torna o código mais conciso e elegante para decisões rápidas de uma linha.
+"Na lógica do Cavalo em xadrez, por que são necessários loops aninhados?",Para simular o deslocamento composto (ex: duas casas em um eixo e uma no outro).
+"O que faz a função `scanf(""%f"", &valor)`?",Lê um número real do teclado e o armazena no endereço da variável 'valor'.
+Qual o resultado lógico de `!(5 > 3)`?,O resultado é falso (0).
+"Como inicializar um array de inteiros com os valores 1, 2 e 3 na declaração?","Utilizando `int numeros[3] = {1, 2, 3};`."
+Qual o papel do comando `return 0;` ao final da função `main`?,Indicar ao sistema operacional que o programa foi finalizado com sucesso.

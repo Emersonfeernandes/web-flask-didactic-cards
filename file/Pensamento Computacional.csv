@@ -1,0 +1,90 @@
+Qual é a definição básica de Inteligência Artificial (IA)?,"Área da computação que desenvolve sistemas capazes de simular habilidades humanas como aprender, decidir e resolver problemas."
+Como a IA é frequentemente descrita em termos de funcionamento cognitivo?,Como um cérebro digital que aprende observando padrões e se torna mais preciso com a prática.
+Cite três exemplos de IA presentes em ferramentas do cotidiano.,"Recomendações no YouTube, rotas no Google Maps e filtros de spam no e-mail."
+A IA é capaz de sentir emoções ou manifestar desejos?,"Não, ela apenas emula certas capacidades humanas sem possuir sentimentos ou consciência."
+"De que forma uma IA aprende a reconhecer um objeto, como um gato?",Observando milhares de exemplos (fotos) e identificando padrões que o diferenciam de outros animais.
+"Para ser útil e segura, a IA depende de quais três pilares humanos?","Dados, treinamento e direcionamento consciente."
+"Quem propôs a pergunta ""Máquinas podem pensar?"" em 1950?",Alan Turing.
+O que foi o 'Teste de Turing'?,Uma avaliação para verificar se um computador poderia se passar por um humano em uma conversa.
+Qual evento de 1956 é considerado o marco inicial da pesquisa em IA?,A Conferência de Dartmouth.
+O que caracterizou o período conhecido como 'Inverno da IA' nas décadas de 1970 e 1980?,Cortes de investimentos e abandono de projetos devido a resultados que não acompanhavam as expectativas.
+O que eram os 'Sistemas Especialistas' da década de 1980?,Programas baseados em regras fixas que simulavam o conhecimento de um profissional em uma área específica.
+Qual a principal diferença entre a IA de regras fixas e o Aprendizado de Máquina (Machine Learning)?,"No Machine Learning, os sistemas aprendem sozinhos observando dados em vez de seguirem regras manuais programadas."
+Qual marco tecnológico de 2022 popularizou a IA generativa para o grande público?,O lançamento do ChatGPT pela OpenAI.
+Quanto tempo o ChatGPT levou para atingir 100 milhões de usuários?,Apenas dois meses.
+Quais são os três fatores principais do recente 'boom' da IA?,"Acessibilidade, velocidade e utilidade prática."
+O que diferencia a IA Generativa dos sistemas de IA tradicionais?,"A IA tradicional apenas reconhece ou classifica padrões, enquanto a Generativa cria conteúdos novos e originais."
+O que é um 'prompt' no contexto de IA generativa?,É o comando ou instrução em linguagem natural enviado à IA para gerar uma resposta.
+Cite quatro tipos de conteúdos que podem ser criados por IAs generativas.,"Textos, imagens, músicas e códigos de programação."
+O que é o fenômeno da 'alucinação' em modelos de IA?,"A criação de informações, fatos ou fontes que parecem plausíveis, mas são inteiramente falsos."
+Qual é o objetivo da 'Engenharia de Prompt'?,"Utilizar estratégias para elaborar comandos mais específicos, claros e eficazes para obter melhores resultados da IA."
+"Na analogia da pizzaria, o que representa um prompt eficaz?","Um pedido detalhado (sabor, tamanho, borda, sem cebola) que garante uma entrega precisa."
+Qual ferramenta de IA é integrada ao Microsoft Office 365 para produtividade?,Copilot (baseado no GPT-4).
+O modelo 'Gemini' pertence a qual empresa de tecnologia?,Google (Alphabet).
+Qual é a principal característica dos modelos 'LLaMA' da Meta?,"São modelos de código aberto (open-source), permitindo personalização por empresas e pesquisadores."
+O que é 'Hardware'?,O conjunto de todos os componentes físicos que formam um dispositivo eletrônico.
+O que estabelece a Lei de Moore?,Que o número de transistores em um chip dobra aproximadamente a cada 18 ou 24 meses.
+Qual componente é conhecido como o 'cérebro' do computador?,CPU (Unidade Central de Processamento).
+O que são 'Registradores' na CPU?,Pequenas áreas de memória interna da CPU que armazenam dados e instruções em uso imediato.
+Qual é a função da 'Memória Cache'?,Atuar como memória intermediária veloz entre a CPU e a RAM para acelerar o acesso a dados frequentes.
+O que significa dizer que a memória RAM é 'volátil'?,Que todo o seu conteúdo é apagado quando o dispositivo é desligado.
+Qual a principal diferença física entre um HD e um SSD?,"O HD usa discos magnéticos giratórios, enquanto o SSD utiliza memória flash sem partes móveis."
+O que são 'Microcontroladores'?,"Pequenos computadores integrados em um único chip, projetados para tarefas específicas em dispositivos como eletrodomésticos."
+Qual é a menor unidade de informação em computação?,O bit (0 ou 1).
+Quantos bits formam um Byte?,8 bits.
+A quantos bytes equivale um Kilobyte ($KB$)?,$1.024$ bytes.
+Qual unidade de medida segue o Gigabyte ($GB$)?,Terabyte ($TB$).
+Por que os computadores utilizam a lógica binária?,Devido à simplicidade e confiabilidade de operar com sinais elétricos em apenas dois estados: ligado ou desligado.
+Como as cores são representadas em sistemas digitais?,"Através de combinações de bits que indicam a intensidade de Vermelho, Verde e Azul (sistema RGB)."
+O que é 'Software'?,"O conjunto de instruções, programas e dados que dizem ao hardware o que fazer."
+Qual a diferença entre software de código aberto e código fechado?,"No código aberto, o código-fonte é público e modificável; no fechado, apenas o desenvolvedor original tem acesso."
+O Linux e o Firefox são exemplos de que categoria de software?,Software de código aberto.
+Diferencie 'Programa' de 'Software completo'.,Um programa realiza uma tarefa específica; um software completo é uma solução ampla composta por vários programas e arquivos auxiliares.
+Qual é a função primordial do Sistema Operacional ($SO$)?,Administrar os recursos de hardware e fornecer uma interface para a interação do usuário.
+O que faz o 'Gerenciamento de Processos' em um $SO$?,Controla a execução de programas e aloca o tempo necessário do processador para cada aplicativo.
+O que são 'Drivers'?,"Softwares que permitem a comunicação entre o sistema operacional e hardwares específicos, como impressoras."
+Cite dois exemplos de sistemas operacionais exclusivos para dispositivos móveis.,Android e iOS.
+O que é 'Firmware'?,Um software gravado em chips de memória que controla as funções fundamentais de inicialização do hardware.
+O que acontece durante o processo de 'Boot'?,O firmware testa o hardware básico e carrega o sistema operacional na memória.
+Qual é a função do 'Middleware'?,Atuar como uma ponte intermediária que permite a comunicação e integração entre diferentes sistemas ou aplicações.
+"Em uma analogia automotiva, o que representam o hardware e o software?","O hardware são as peças físicas (motor, rodas); o software são os sistemas de controle (GPS, injeção eletrônica)."
+O que caracteriza uma 'Linguagem Compilada'?,O código é traduzido integralmente por um compilador em um arquivo executável antes de ser rodado.
+O que caracteriza uma 'Linguagem Interpretada'?,O código é lido e executado linha por linha por um interpretador no momento da execução.
+Cite uma vantagem e uma desvantagem das linguagens compiladas.,Vantagem: desempenho superior; Desvantagem: menor flexibilidade para mudanças rápidas.
+Python e JavaScript são exemplos de qual tipo de linguagem quanto à execução?,Linguagens interpretadas.
+O que define uma linguagem de 'Baixo Nível'?,"Sua proximidade com o hardware, utilizando instruções que a CPU entende diretamente (como Assembly)."
+Qual é a principal vantagem das linguagens de 'Alto Nível'?,"Utilizam comandos intuitivos próximos da lógica humana, facilitando e acelerando o desenvolvimento."
+O que são 'Paradigmas de Programação'?,Modelos ou estilos que orientam como os programas são estruturados e como as soluções são desenhadas.
+O que propõe o 'Paradigma Orientado a Objetos'?,Organizar o programa em entidades (objetos) que possuem atributos (características) e métodos (comportamentos).
+Qual paradigma foca em uma sequência de instruções organizadas como uma receita?,Paradigma Procedural (ou Estruturado).
+O que é uma 'IDE' (Ambiente de Desenvolvimento Integrado)?,"Uma ferramenta que reúne editor de texto, depurador e outras funções para facilitar a criação de softwares."
+O Visual Studio Code e o PyCharm são exemplos de qual tipo de ferramenta?,IDE (Ambiente de Desenvolvimento Integrado).
+O paradigma _____ organiza o programa em funções matemáticas puras sem alterar variáveis externas.,Funcional
+A unidade de medida _____ equivale a $1.024$ Terabytes.,Petabyte ($PB$)
+O primeiro programa a entrar em ação ao ligar o computador é o _____.,Firmware
+O sistema binário utiliza apenas os dígitos _____ para representar informações.,$0$ e $1$
+A memória _____ mantém os dados mesmo após o desligamento do dispositivo.,Persistente (ou permanente)
+"Um prompt eficaz deve ser _____, detalhado e bem-direcionado.",Claro
+A IA que gera sugestões de manchetes ou imagens inéditas é classificada como IA _____.,Generativa
+O teste que avalia a inteligência de uma máquina em uma conversa é o Teste de _____.,Turing
+Linguagens como C e C++ são exemplos clássicos de linguagens _____.,Compiladas
+"No paradigma _____, a pessoa programadora detalha o passo a passo de como a tarefa deve ser feita, controlando o fluxo diretamente.",Imperativo
+O sistema operacional _____ é de código aberto e amplamente usado em servidores.,Linux
+Os chips que armazenam o firmware nos computadores modernos são conhecidos como _____.,UEFI (ou BIOS)
+"A velocidade da CPU é medida em _____, indicando quantas operações ocorrem por segundo.",Gigahertz ($GHz$)
+A unidade de armazenamento $1.024$ Gigabytes corresponde a $1$ _____.,Terabyte
+A _____ dos circuitos eletrônicos permitiu que os hardwares se tornassem mais potentes e compactos ao longo do tempo.,Miniaturização
+A IA _____ é treinada para produzir conteúdos originais simulando a criatividade humana.,Generativa
+O conceito de 'nuvem' e 'grandes volumes de dados' favoreceu o avanço do _____ nas décadas de 2000 e 2010.,Aprendizado de Máquina (Machine Learning)
+O firmware _____ substitui a antiga BIOS em equipamentos modernos.,UEFI
+A linguagem _____ é a tradução direta de instruções em binário que a CPU processa.,De máquina
+O componente de hardware que gerencia o fluxo de energia e interconecta todas as peças é a placa-_____.,Mãe
+O armazenamento em _____ utiliza chips eletrônicos e é significativamente mais rápido que discos magnéticos.,SSD
+"O termo 'IoT' refere-se à Internet das _____, que utiliza microcontroladores para conectar objetos ao mundo digital.",Coisas
+"Em termos de memória, o nível _____ do cache é geralmente o mais rápido e está mais próximo do núcleo da CPU.",$L1$
+A técnica de 'Deep Learning' utiliza redes _____ generativas para produzir saídas inéditas.,Neurais
+"Na engenharia de prompt, fornecer o _____ ajuda a IA a entender o cenário e o objetivo da tarefa.",Contexto
+O sistema operacional _____ é exclusivo para notebooks e computadores da Apple.,MacOS
+O software de código _____ permite que qualquer pessoa visualize como ele foi feito e o adapte livremente.,Aberto
+A função do SO de 'Gerenciamento de _____' organiza a leitura e gravação de dados em HDs ou pen drives.,Arquivos
+"O paradigma de programação _____ foca no 'quê' deve ser feito em vez do 'como', usando funções puras.",Funcional

@@ -1,0 +1,60 @@
+"De acordo com o NIST, qual característica permite que o cliente provisione recursos computacionais automaticamente, sem interação humana com o provedor?",On-demand self-service (Autoatendimento sob demanda).
+"A característica da nuvem que permite o acesso a serviços por meio de diversas plataformas (celulares, tablets, laptops) é o _____.",Broad network access (Amplo acesso à rede).
+"Como se chama a característica que utiliza o compartilhamento de recursos físicos (CPU, memória) para atender múltiplos consumidores simultaneamente?",Resource pooling (Pool de recursos).
+Qual característica da nuvem permite aumentar ou diminuir a quantidade de recursos computacionais rapidamente conforme a necessidade do negócio?,Rapid elasticity (Elasticidade rápida).
+O conceito de pagar apenas pelos recursos efetivamente consumidos na nuvem é conhecido como _____.,Measured service (Serviço medido).
+"No modelo de serviço Software as a Service (SaaS), qual o nível de controle do cliente sobre a infraestrutura de rede e servidores?",Inexistente ou muito limitado a configurações específicas do usuário.
+"Qual modelo de serviço permite que o cliente implante aplicações próprias usando linguagens e ferramentas suportadas, sem gerenciar o sistema operacional?",Platform as a Service (PaaS).
+"No modelo Infrastructure as a Service (IaaS), o que fica sob encargo e controle direto do cliente?","Sistemas operacionais, armazenamento e aplicativos implantados."
+Como se define uma 'Nuvem Privada'?,Infraestrutura de nuvem provisionada para uso exclusivo por uma única organização.
+Qual o modelo de implantação de nuvem é provisionado para uso aberto ao público em geral?,Public cloud (Nuvem pública).
+"A _____ representa uma infraestrutura que une logicamente dois ou mais modelos de nuvem distintos (privada, pública ou comunitária).",Nuvem Híbrida (Hybrid cloud).
+Qual o objetivo do princípio da 'Confidencialidade' na segurança da informação?,Garantir que as informações sejam acessadas apenas por quem possui direito de acesso.
+O princípio que garante que a informação não seja modificada indevidamente durante a transmissão ou armazenamento é a _____.,Integridade
+O que garante o princípio da 'Disponibilidade' na segurança da nuvem?,Garantir que as informações e serviços estejam acessíveis sempre que necessário.
+"No modelo de nuvem, quem é o responsável exclusivo pela segurança física dos equipamentos hospedados em suas dependências?",O provedor de serviço em nuvem.
+O que é o 'Modelo de Responsabilidade Compartilhada'?,Estrutura que determina as obrigações de segurança devidas pelo provedor e pelo cliente.
+"Em qual modelo de serviço (IaaS, PaaS ou SaaS) a responsabilidade do cliente sobre a segurança é maior?",Infrastructure as a Service (IaaS).
+"No modelo SaaS, qual é a principal responsabilidade de segurança delegada ao cliente?",Proteger credenciais de login contra phishing ou engenharia social.
+Qual a principal diferença entre uma Máquina Virtual (VM) e um Contêiner em relação ao sistema operacional?,"A VM exige um SO completo para cada instância, enquanto contêineres compartilham o kernel do SO do host."
+"O projeto de código aberto utilizado para orquestrar, implantar e gerenciar contêineres em larga escala chama-se _____.",Kubernetes
+O que significa o termo 'serverless' (sem servidor) do ponto de vista do cliente?,"O cliente não gerencia a infraestrutura subjacente, apenas o código da função."
+Qual a vantagem de utilizar uma 'Base de Dados Gerenciada' em vez de instalar o banco em uma VM própria?,"O provedor assume a responsabilidade por patches de segurança, backup e alta disponibilidade."
+Tipo de armazenamento de nuvem destinado a guardar dados em 'buckets' acessíveis via API e protocolo HTTPS:,Object storage (Armazenamento de objeto).
+"O _____ é um esquema de armazenamento similar a uma SAN local, onde o cliente monta e formata um volume em um sistema de arquivos comum.",Armazenamento em bloco (Block storage).
+Qual a função de um serviço de VPN (Virtual Private Network) no ambiente de nuvem?,Oferecer acesso seguro a recursos privados por meio de uma conexão criptografada (túnel).
+Qual serviço de rede protege aplicações web especificamente contra ataques no protocolo HTTP/HTTPS?,Web Application Firewall (WAF).
+O registro documentado de todas as ações realizadas em um ambiente de nuvem é chamado de _____.,Trilha de auditoria (Audit trail).
+Qual classe de produto é utilizada para correlacionar logs de diversos serviços e alertar sobre assinaturas de risco complexas?,Security Information and Event Management (SIEM).
+"Segundo a CSA, o conceito de 'Multilocação' é a junção de quais dois princípios?",Segregação e isolamento.
+"Na arquitetura de referência da CSA, o que representa a camada de 'Metaestrutura'?",Os protocolos e mecanismos que fornecem a interface entre a infraestrutura e as demais camadas.
+Como a CSA define a camada de 'Applistrutura'?,Os aplicativos implantados na nuvem e os serviços de aplicativos subjacentes usados para construí-los.
+Quais são os dois grandes grupos de domínios operacionais e estratégicos definidos pela CSA?,Governança e Operação.
+"O domínio da CSA que trata da proteção do hardware, rede e software de orquestração é chamado de _____.",Segurança da infraestrutura (Domain 7).
+"No Google Cloud, como se chama a localização física geográfica (país ou estado) que abriga os datacenters?",Região
+"No Google Cloud, as _____ são divisões de servidores dentro de uma região para garantir alta disponibilidade em caso de falhas locais.",Zonas
+Qual o diferencial da rede de comunicação inter-regiões do Google Cloud em relação a outros provedores?,"Possui rede própria de cabos submarinos privada, sem passar pela internet tradicional."
+O serviço do Google Cloud que oferece infraestrutura como serviço (IaaS) para máquinas virtuais chama-se _____.,Compute Engine
+O que é uma VPC (Virtual Private Cloud) no contexto do Google Cloud?,"Uma rede virtual segura, individual e privada para configuração de recursos do usuário."
+Qual a vantagem de utilizar subnets em regiões diferentes em uma estratégia de 'Disaster Recovery'?,Garante que a aplicação permaneça disponível caso uma região inteira fique inoperante.
+"No Google Cloud, as máquinas virtuais da família _____ são otimizadas para computação básica com custo menor.",E2
+Qual família de máquinas do Google Cloud é indicada para cargas de trabalho com uso intensivo de CPU e alto desempenho?,"Otimizada para computação (Séries C2, C2D)."
+A arquitetura de software que utiliza recursos como serviço de forma desacoplada e independente é chamada de _____.,Cloud Native Application (Aplicativo nativo da nuvem).
+Diferença entre arquitetura Stateful e Stateless:,"Stateful armazena dados de estado localmente; Stateless armazena dados em componentes externos, focando em lógica."
+Qual o nome do serviço PaaS do Google Cloud que entrega infraestrutura serverless para execução de contêineres?,Cloud Run
+"Segundo a matriz de responsabilidades do Google Cloud, quem é responsável pela segurança do 'Boot' e do 'Hardware' no modelo IaaS?",O provedor (Google).
+"No modelo IaaS do Google Cloud, de quem é a responsabilidade pela segurança do Sistema Operacional instalado na VM?",Do usuário (cliente).
+O domínio 11 da CSA foca em quais dois aspectos fundamentais para os dados na nuvem?,Criptografia e segurança de dados.
+O conceito de 'Abstração e Orquestração' é a base técnica para a criação de uma _____ segundo a CSA.,Nuvem
+Qual a função do serviço IAM (Identity and Access Management)?,"Gerenciar identidades, privilégios e permissões de acesso aos recursos da nuvem."
+"No Google Cloud, qual divisão geográfica é identificada por nomes como 'southamerica-east1'?","Uma Região (neste caso, São Paulo)."
+Qual característica do NIST define o acesso à rede nos moldes dos grandes provedores de serviços de internet (ISP)?,Broad network access (Amplo acesso à rede).
+"Qual modelo de serviço permite ao cliente apenas o controle limitado sobre componentes de rede específicos, como firewalls de host?",Infrastructure as a Service (IaaS).
+"O modelo de nuvem provisionado para uma comunidade com preocupações compartilhadas (missão, segurança, conformidade) é a _____.",Community cloud (Nuvem comunitária).
+Qual a principal preocupação do domínio 'Governança da Informação' da CSA?,"Identificação, controle e responsabilidade sobre os dados colocados na nuvem."
+"Na arquitetura funcional da nuvem, os dados e informações contidos em bancos de dados pertencem à camada de _____.",Infoestrutura
+Qual o benefício da portabilidade em contêineres?,Permite que a aplicação desenvolvida localmente seja executada em escala idêntica em produção.
+"A tecnologia serverless é frequentemente descrita como sendo orientada a _____, invocando funções via gatilhos específicos.",Eventos
+O serviço CDN ajuda na proteção contra ataques DDoS ao atuar como uma _____ de resposta às requisições antes que cheguem ao servidor.,Camada prévia
+"No monitoramento de nuvem, o que é essencial para cumprir o conceito da 'necessidade de conhecimento'?",Armazenar logs em um repositório central com acesso limitado.
+"Qual norma internacional fornece um modelo de referência detalhado e vocabulário para computação em nuvem, endossada pela CSA?",ISO/IEC 17788:2014.

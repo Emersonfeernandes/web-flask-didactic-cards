@@ -1,0 +1,80 @@
+Como o autor Monteiro define um 'sistema'?,Conjunto de partes coordenadas que concorrem para a realização de um determinado objetivo.
+Qual a definição de um 'sistema de computação'?,Conjunto de partes coordenadas que concorrem para o objetivo de computar dados.
+Diferença entre arquitetura e implementação: qual termo se relaciona aos pontos de interesse do programador?,Arquitetura de computadores.
+A tecnologia usada na construção da memória e a frequência do relógio são exemplos de quais aspectos?,Implementação de computadores.
+Termo: Dados,Definição: Conjunto de fatos em estado bruto a partir dos quais conclusões podem ser tiradas.
+Termo: Informação,Definição: Inteligência e conhecimento derivados do processamento de dados.
+O que é o 'processamento de dados' (data processing)?,Série de atividades ordenadas para produzir informações a partir de dados iniciais.
+Como um algoritmo pode ser formalizado para ser entendido por um sistema de computação?,Através de comandos de uma linguagem de programação.
+O que caracteriza uma linguagem de programação de baixo nível de abstração?,Uso de mnemônicos e relação direta com a arquitetura do processador.
+Dê exemplos de linguagens de programação de alto nível de abstração.,"Pascal, Fortran, $C++$ e Delphi."
+O que são 'mnemônicos' no contexto de programação?,Sintaxes que designam as instruções de operações em linguagem de montagem.
+Quais são os 5 componentes da organização funcional de um sistema de computação?,"Dispositivo de entrada, dispositivo de saída, processador, memória principal e memória secundária."
+Qual a principal característica da Arquitetura de John von Neumann?,Permite armazenar programas e dados no mesmo espaço de memória.
+Quais são os três grandes subsistemas nos quais um computador é organizado funcionalmente?,"Processador, memória e entrada/saída (E/S)."
+Termo: Barramento,"Definição: Conjunto de fios que transportam sinais de informação, controle e comunicação entre componentes."
+O que são os 'sinais de informação' transportados no barramento?,Bits transportados entre o processador e demais componentes como memória ou periféricos.
+Qual a função do barramento de dados (BD)?,Transportar bits de dados de forma bidirecional entre o processador e outros componentes.
+Qual a função do barramento de endereços (BE)?,Transportar bits de um endereço de acesso de forma unidirecional do processador para o controlador.
+Como é calculado o total de pinos de um processador em relação aos barramentos?,$Total_{pinos} = BD + BE + BC$.
+"No funcionamento do barramento, o que define uma 'operação de escrita'?",Armazenamento de um dado resultante do processamento em um endereço de memória.
+Quais são as duas tarefas interpretativas básicas de um processador?,Interpretar o que fazer (operação) e executar a operação (como fazer).
+O que é uma 'instrução de máquina'?,Conjunto de bits que identifica uma operação primitiva realizada diretamente pelo hardware.
+Cite três exemplos de operações lógicas primitivas de um processador.,"AND, OR e XOR."
+Qual a diferença entre 'conjunto de instruções' e 'ciclo de instrução'?,O conjunto são as instruções possíveis do hardware; o ciclo é a organização sequencial para executar um programa.
+Quais são as duas partes básicas de uma instrução de máquina?,Código de operação (C.Op.) e Operando(s) (Op.).
+O que significa o acrônimo 'BDE' no ciclo de instrução?,"Buscar a instrução, Decodificar a operação e Executar a operação."
+Como se calcula a quantidade de endereços ($N$) que um barramento de endereços de largura $L$ pode acessar?,$N = 2^L$.
+"Se um processador endereça 4 Mega endereços, qual a largura do barramento de endereços em bits?",22 bits (pois $4M = 2^2 \times 2^{20} = 2^{22}$).
+Quais são as duas funções principais de uma Unidade Central de Processamento (UCP)?,Função de processamento e função de controle.
+"Na hierarquia de memórias, quais os três fatores que variam entre os níveis?","Velocidade, custo e capacidade."
+Quais memórias ocupam o topo da pirâmide da hierarquia (maior custo e velocidade)?,Registradores.
+Qual registrador armazena o endereço da próxima instrução a ser buscada?,Contador de Instrução (CI) ou Contador de Programa (PC).
+Qual a função do Registrador de Instrução (RI)?,Armazenar a instrução que está sendo executada no momento.
+O que o Registrador de Endereço de Memória (REM) armazena?,Endereços para transferências externas de memória.
+Qual a finalidade dos 'Flags' nos registradores do processador?,Indicar o resultado ou condições especiais de certas instruções.
+Por que os computadores utilizam memória cache?,Para compensar a diferença de velocidade entre o processador e a memória principal.
+O que afirma o 'Princípio da Localidade Espacial'?,"Se um endereço é acessado, é provável que o próximo acesso seja ao endereço vizinho."
+O que afirma o 'Princípio da Localidade Temporal'?,"Se um endereço é acessado, é provável que ele seja acessado novamente em curto tempo."
+O que significa a sigla RAM?,Random-Access Memory (Memória de Acesso Aleatório).
+Qual a principal diferença entre SRAM e DRAM?,A SRAM é estática e rápida (usada em cache); a DRAM é dinâmica e precisa de refresh (usada como memória principal).
+O que caracteriza a memória do tipo DDR-SDRAM?,Transfere dados tanto na subida quanto na descida do sinal de clock.
+Qual a diferença entre os encapsulamentos SIMM e DIMM?,"No SIMM, os contatos dos dois lados são iguais; no DIMM, são independentes."
+Termo: Ciclo de Memória,Definição: Tempo mínimo entre duas operações sucessivas de leitura ou escrita.
+Qual a sequência de busca de um dado pelo processador nas memórias cache?,"Verifica a L1, depois L2, depois L3 e, por fim, a memória principal (RAM)."
+O que é um 'periférico' no contexto de hardware?,Dispositivo de entrada e saída localizado na periferia do núcleo processador/memória.
+Qual a função da interface ou controlador no subsistema de E/S?,Compatibilizar as características do dispositivo com o processador e controlar seu funcionamento.
+Por que as atividades de Entrada e Saída são consideradas assíncronas?,Pois não são sincronizadas pelos pulsos do relógio interno do processador.
+"No funcionamento de um teclado, o que é o 'sinal de interrupção'?",Um pedido de processamento da tecla inserido no meio de outras execuções da CPU.
+Como os dados são organizados fisicamente em um prato de disco magnético?,Em anéis concêntricos chamados trilhas.
+O que é um 'cilindro' em um disco rígido de múltiplos pratos?,O conjunto de todas as trilhas na mesma posição relativa em todos os pratos.
+Qual a vantagem da técnica de E/S controlada por interrupção sobre a controlada por programa?,O processador permanece livre para outras tarefas enquanto a operação de E/S ocorre.
+O que caracteriza a técnica DMA (Direct Memory Access)?,Transferência de blocos de dados entre memória e periféricos sem intervenção da CPU (exceto início e fim).
+Termo: Driver de dispositivo,Definição: Código específico usado pelo sistema operacional para controlar um hardware periférico.
+Por que a transmissão serial substituiu a paralela na maioria das conexões externas?,Devido ao problema de deslizamento de sinais em altas taxas na transmissão paralela.
+O que é o 'Kernel' de um sistema operacional?,Núcleo executado em modo privilegiado com acesso completo ao hardware.
+Diferença entre hardware e software na 'máquina de camadas'?,"Hardware é a camada física (placas, fios); Software é a camada lógica (aplicativos, dados)."
+Qual a característica de um sistema operacional monoprogramável?,Os recursos ficam dedicados exclusivamente à execução de apenas um programa.
+O que define um sistema operacional de 'tempo compartilhado'?,Permite que múltiplos usuários remotos executem tarefas simultaneamente.
+Diferença entre sistemas fortemente e fracamente acoplados?,Fortemente acoplados compartilham memória física; fracamente acoplados conectam sistemas independentes via rede.
+O que são 'contêineres' no contexto de sistemas operacionais modernos?,"Abstração que compartilha o kernel do SO, executando apenas o aplicativo e suas dependências."
+Qual a menor unidade de informação em um sistema de computação?,O bit.
+Quantos bits formam um Byte?,8 bits.
+Como se converte um valor de Bytes para bits?,Multiplicando o valor por 8.
+O que compõe uma 'palavra' no processamento de dados?,Um conjunto ordenado de bytes que representa uma informação útil.
+Qual a hierarquia de organização de dados do menor para o maior nível?,Bit $\rightarrow$ Byte $\rightarrow$ Palavra $\rightarrow$ Registro $\rightarrow$ Arquivo $\rightarrow$ Banco de Dados.
+"Na computação, o prefixo 'Kilo' ($1K$) em potência de 2 equivale a qual valor decimal?",$1024$ (ou $2^{10}$).
+O prefixo 'Mega' ($1M$) em potência de 10 equivale a qual valor?,$1.000.000$ (ou $10^6$).
+Quantos caracteres distintos o padrão ASCII original pode associar?,128 caracteres (usando 7 bits).
+Qual a base numérica do sistema hexadecimal?,Base 16.
+Quais são os símbolos usados na base hexadecimal além dos números 0-9?,"As letras A, B, C, D, E e F."
+O que define um sistema de numeração 'não posicional'?,O valor de cada algarismo é fixo e não depende de sua posição no número.
+"No sistema binário, quais são os únicos algarismos válidos?",0 e 1.
+"No sistema octal, qual o maior algarismo possível em uma posição?",7.
+"Ao somar dois algarismos em qualquer base, o que ocorre se o resultado for igual ou maior que a base?",Subtrai-se a base do resultado e passa-se uma unidade ('vai 1') para a esquerda.
+Converta 256 bytes para bits.,2.048 bits.
+"Na conversão de prefixos, o que indica uma seta para a direita no diagrama de potências?",Um submúltiplo do valor (uso de expoente negativo).
+Qual a utilidade das tabelas de representação de dados?,Mapear sequências de bits para caracteres inteligíveis aos seres humanos.
+Qual formato de arquivo é padrão para codificação de áudio em sequências de 0s e 1s?,MP3.
+Qual a diferença entre localidade espacial e temporal?,A espacial foca na proximidade física dos endereços; a temporal foca na repetição do acesso ao mesmo endereço.
+O que é o 'refresh' em memórias DRAM?,Processo periódico de recarga dos capacitores para manter a integridade dos dados.
