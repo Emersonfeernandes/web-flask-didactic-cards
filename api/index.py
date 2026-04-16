@@ -4,11 +4,11 @@ from email.policy import default
 import os
 import csv
 from flask import render_template, Flask
-#from main import app
+from content import content
 
 app = Flask(__name__)
 
-conteudo = os.listdir("api/file")
+conteudo = content()
 
 @app.route('/', defaults={'pages':conteudo})
 @app.route('/home/<user>')
@@ -69,8 +69,6 @@ def pensamento_computacional():
         for row in file:
             list_quest.append(row)
     return render_template('pensamento-computacional.html', quest=list_quest)
-
-
 
 
 
