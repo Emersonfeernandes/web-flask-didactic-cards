@@ -1,7 +1,4 @@
-# card\bin\activate
-import os
-import csv
-from flask import render_template, Flask
+from flask import Flask
 
 from routes.card import card_bp
 from routes.main import main_bp

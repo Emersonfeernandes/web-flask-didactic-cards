@@ -16,38 +16,53 @@ def slugify(text):
     text = text.strip('-')
 
     return text
-
 def data_card():
-    conteudo = os.listdir("api/file")
-    
-    dados = []
+    try:
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        FILE_DIR = os.path.join(BASE_DIR, "file")
 
-    for x in conteudo:
-        base = x.strip().replace(".csv", "")
-        url = slugify(base)
+        conteudo = os.listdir(FILE_DIR)
         
-        dados.append({
-            "nome": base,
-            "url_p": f"card/{url}"
-        })
-    
-    return dados
+        dados = []
+
+        for x in conteudo:
+            base = x.strip().replace(".csv", "")
+            url = slugify(base)
+            
+            dados.append({
+                "nome": base,
+                "url_p": f"card/{url}"
+            })
+        
+        return dados
+
+    except Exception as e:
+        print("Erro:", e)
+        return []
 
 def data_card_computer_architecture():
-    conteudo = os.listdir("api/file/Arquitetura de Computadores")
+    try:
+        BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        DIR = os.path.join(BASE_DIR, "file", "Arquitetura de Computadores")
+        
+        conteudo = os.listdir(DIR)
+        
+        dados = []
     
-    dados = []
+        for x in conteudo:
+                base = x.strip().replace(".csv", "")
+                url = slugify(base)
+                
+                dados.append({
+                    "nome": base,
+                    "url_p": f"computer-architecture/{url}"
+            })
+        
+        return dados
 
-    for x in conteudo:
-        base = x.strip().replace(".csv", "")
-        url = slugify(base)
-        print(base)
-        dados.append({
-            "nome": base,
-            "url_p": f"computer-architecture/{url}"
-        })
-    
-    return dados
+    except Exception as e:
+        print("Erro:", e)
+        return []
 
 def data_read():
     dados = [
